@@ -5,17 +5,17 @@ var perguntas;
 var x = 0;
 (function() {	
 	
-    const config = $(secrets.SURVEYPERCYTESTSECRET_FB);
+    const config = //$(secrets.SURVEYPERCYTESTSECRET_FB);
 
-    /* {
-    apiKey: "AIzaSyDrQGvVqEEoM8sAtIC6DmKcu9N4dtic28g",
+     {
+    apiKey: $(secrets.SURVEYPERCYTESTSECRET_FB),//"AIzaSyDrQGvVqEEoM8sAtIC6DmKcu9N4dtic28g",
     authDomain: "surveypercy-3914b.firebaseapp.com",
     databaseURL: "https://surveypercy-3914b.firebaseio.com",
     projectId: "surveypercy-3914b",
     storageBucket: "surveypercy-3914b.appspot.com",
     messagingSenderId: "748138801996"
     };
-    */
+    
     firebase.initializeApp(config);
 
     const dbEvaluationQuestRef = firebase.database().ref('Questionario');//.endAt('05');
