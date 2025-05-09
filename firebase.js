@@ -4,6 +4,7 @@ var outputArray = [];
 var perguntas;
 var x = 0;
 (function() {
+	
     const config = ${ secrets.SURVEYPERCYTESTSECRET_FB };
 
     /* {
