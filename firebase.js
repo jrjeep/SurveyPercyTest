@@ -6,9 +6,8 @@ var x = 0;
 (function() {	
 	
     const config = //$(secrets.SURVEYPERCYTESTSECRET_FB);
-	    
      {
-    apiKey: $({services/SURVEYPERCYTESTSECRET_FB}),//"AIzaSyDrQGvVqEEoM8sAtIC6DmKcu9N4dtic28g",
+    apiKey: $({SURVEYPERCYTESTSECRET_FB}),//"AIzaSyDrQGvVqEEoM8sAtIC6DmKcu9N4dtic28g",
     authDomain: "surveypercy-3914b.firebaseapp.com",
     databaseURL: "https://surveypercy-3914b.firebaseio.com",
     projectId: "surveypercy-3914b",
