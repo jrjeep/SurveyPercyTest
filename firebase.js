@@ -4,8 +4,7 @@ var outputArray = [];
 var perguntas;
 var x = 0;
 (function() {	
-	
-    const config = {$(SURVEYPERCYTESTSECRET_FB)};
+    const config = $(SURVEYPERCYTESTSECRET_FB);
 
     /* {
     apiKey: "AIzaSyDrQGvVqEEoM8sAtIC6DmKcu9N4dtic28g",
