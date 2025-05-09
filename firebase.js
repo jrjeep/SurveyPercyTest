@@ -1,4 +1,4 @@
-var pesquisaName = '';
+var pesquisaName = 'zz';
 var ultimaQuestao = '';
 var outputArray = [];
 var perguntas;
